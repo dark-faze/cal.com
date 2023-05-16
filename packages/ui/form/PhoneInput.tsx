@@ -13,6 +13,7 @@ export type PhoneInputProps = {
   required?: boolean;
   className?: string;
   name?: string;
+  disabled?: boolean;
   onChange: (value: string) => void;
 };
 
